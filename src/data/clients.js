@@ -13,16 +13,32 @@ export const clients = [
     tasks: { done: 12, total: 16 },
     stages: [
       { label: "Discovery", done: true },
-      { label: "Diseño",    done: true },
-      { label: "Dev",       done: true },
-      { label: "QA",        done: false, active: true },
-      { label: "Launch",    done: false },
+      { label: "Diseño", done: true },
+      { label: "Dev", done: true },
+      { label: "QA", done: false, active: true },
+      { label: "Launch", done: false },
     ],
     updates: [
-      { text: "Integración de pagos con MercadoPago finalizada", date: "29 Oct", type: "success" },
-      { text: "Nuevo schema de base de datos aprobado", date: "27 Oct", type: "accent" },
-      { text: "Revisión de diseño mobile en curso", date: "26 Oct", type: "warning" },
-      { text: "Módulo de productos completado", date: "20 Oct", type: "success" },
+      {
+        text: "Integración de pagos con MercadoPago finalizada",
+        date: "29 Oct",
+        type: "success",
+      },
+      {
+        text: "Nuevo schema de base de datos aprobado",
+        date: "27 Oct",
+        type: "accent",
+      },
+      {
+        text: "Revisión de diseño mobile en curso",
+        date: "26 Oct",
+        type: "warning",
+      },
+      {
+        text: "Módulo de productos completado",
+        date: "20 Oct",
+        type: "success",
+      },
     ],
     automations: [
       { name: "Form → CRM", status: "Activo", type: "success" },
@@ -51,15 +67,27 @@ export const clients = [
     tasks: { done: 6, total: 15 },
     stages: [
       { label: "Discovery", done: true },
-      { label: "Diseño",    done: true },
-      { label: "Dev",       done: false, active: true },
-      { label: "QA",        done: false },
-      { label: "Launch",    done: false },
+      { label: "Diseño", done: true },
+      { label: "Dev", done: false, active: true },
+      { label: "QA", done: false },
+      { label: "Launch", done: false },
     ],
     updates: [
-      { text: "Wireframes aprobados por el cliente", date: "28 Oct", type: "success" },
-      { text: "Setup inicial del repo React Native", date: "25 Oct", type: "accent" },
-      { text: "Definición de arquitectura completada", date: "18 Oct", type: "success" },
+      {
+        text: "Wireframes aprobados por el cliente",
+        date: "28 Oct",
+        type: "success",
+      },
+      {
+        text: "Setup inicial del repo React Native",
+        date: "25 Oct",
+        type: "accent",
+      },
+      {
+        text: "Definición de arquitectura completada",
+        date: "18 Oct",
+        type: "success",
+      },
     ],
     automations: [
       { name: "CI/CD Pipeline", status: "Activo", type: "success" },
@@ -85,16 +113,28 @@ export const clients = [
     tasks: { done: 18, total: 20 },
     stages: [
       { label: "Discovery", done: true },
-      { label: "Diseño",    done: true },
-      { label: "Dev",       done: true },
-      { label: "QA",        done: true },
-      { label: "Launch",    done: false, active: true },
+      { label: "Diseño", done: true },
+      { label: "Dev", done: true },
+      { label: "QA", done: true },
+      { label: "Launch", done: false, active: true },
     ],
     updates: [
-      { text: "QA finalizado sin errores críticos", date: "29 Oct", type: "success" },
+      {
+        text: "QA finalizado sin errores críticos",
+        date: "29 Oct",
+        type: "success",
+      },
       { text: "Deploy en staging aprobado", date: "27 Oct", type: "success" },
-      { text: "Últimos ajustes de copy solicitados", date: "24 Oct", type: "warning" },
-      { text: "Animaciones hero implementadas", date: "20 Oct", type: "accent" },
+      {
+        text: "Últimos ajustes de copy solicitados",
+        date: "24 Oct",
+        type: "warning",
+      },
+      {
+        text: "Animaciones hero implementadas",
+        date: "20 Oct",
+        type: "accent",
+      },
     ],
     automations: [
       { name: "Form → Email", status: "Activo", type: "success" },
@@ -108,4 +148,59 @@ export const clients = [
       { name: "SEO Report.pdf", size: "1.2 MB", icon: "📊" },
     ],
   },
-]
+
+  {
+    id: 1,
+    name: "Zaira Varela",
+    initials: "ZV",
+    company: "Tienda Varela",
+    project: "E-commerce completo",
+    color: "#1f06e0",
+    progress: 25,
+    status: "QA",
+    statusColor: "warning",
+    eta: "15 Dic 2026",
+    tasks: { done: 12, total: 16 },
+    stages: [
+      { label: "Discovery", done: true },
+      { label: "Diseño", done: true },
+      { label: "Dev", done: true },
+      { label: "QA", done: false, active: true },
+      { label: "Launch", done: false },
+    ],
+    updates: [
+      {
+        text: "Integración de pagos con MercadoPago finalizada",
+        date: "29 Oct",
+        type: "success",
+      },
+      {
+        text: "Nuevo schema de base de datos aprobado",
+        date: "27 Oct",
+        type: "accent",
+      },
+      {
+        text: "Revisión de diseño mobile en curso",
+        date: "26 Oct",
+        type: "warning",
+      },
+      {
+        text: "Módulo de productos completado",
+        date: "20 Oct",
+        type: "success",
+      },
+    ],
+    automations: [
+      { name: "Form → CRM", status: "Activo", type: "success" },
+      { name: "Email Sequence", status: "Activo", type: "success" },
+      { name: "Data Sync", status: "Pendiente", type: "warning" },
+      { name: "Notif. Slack", status: "Config.", type: "accent" },
+    ],
+    docs: [
+      { name: "Contrato firmado.pdf", size: "245 KB", icon: "📄" },
+      { name: "API Spec Draft.docx", size: "88 KB", icon: "📝" },
+      { name: "Project Brief", size: "Notion", icon: "🔗" },
+      { name: "Presupuesto.xlsx", size: "32 KB", icon: "📊" },
+    ],
+  },
+];
